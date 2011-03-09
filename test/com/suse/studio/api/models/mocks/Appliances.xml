@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<appliances type="array">
+  <appliance>
+    <id>130185</id>
+    <name>LAMP Server (32bit)</name>
+    <arch>i586</arch>
+    <type>vmx</type>
+    <last_edited>2010-07-16 10:36:26 UTC</last_edited>
+    <estimated_raw_size>700 MB</estimated_raw_size>
+    <estimated_compressed_size>200 MB</estimated_compressed_size>
+    <edit_url>http://susestudio.com/appliance/edit/130185</edit_url>
+    <icon_url>http://susestudio.com/api/v1/user/appliance_icon/130185</icon_url>
+    <basesystem>11.2</basesystem>
+    <uuid>db4d8420-8797-11df-9aa3-475ae2f5345b</uuid>
+    <parent>
+      <id>130174</id>
+      <name>LAMP Server</name>
+    </parent>
+    <builds type="array">
+      <build>
+        <id>384833</id>
+        <version>0.0.5</version>
+        <image_type>xen</image_type>
+        <image_size>2074</image_size>
+        <compressed_image_size>182</compressed_image_size>
+        <download_url>http://susestudio.com/download/88aaa265693b90e7e36e1e30a541deea/LAMP_Server.i686-0.0.5.xen.tar.gz</download_url>
+      </build>
+      <build>
+        <id>254067</id>
+        <version>0.0.4</version>
+        <image_type>xen</image_type>
+        <image_size>16384</image_size>
+        <compressed_image_size>182</compressed_image_size>
+        <download_url>http://susestudio.com/download/b6d484c0313d29d35f534765c701303f/LAMP_Server.i686-0.0.4.xen.tar.gz</download_url>
+      </build>
+      <build>
+        <id>234279</id>
+        <version>0.0.3</version>
+        <image_type>vmx</image_type>
+        <image_size>944</image_size>
+        <compressed_image_size>186</compressed_image_size>
+        <download_url>http://susestudio.com/download/b53cb4bbfc2a08faec3de1aa2e429b10/LAMP_Server.i686-0.0.3.vmx.tar.gz</download_url>
+      </build>
+    </builds>
+  </appliance>
+  <appliance>
+    <id>201137</id>
+    <name>Eucalyptus front-end</name>
+    <arch>x86_64</arch>
+    <type>oem</type>
+    <last_edited>2010-07-16 10:00:00 UTC</last_edited>
+    <estimated_raw_size>1000 MB</estimated_raw_size>
+    <estimated_compressed_size>280 MB</estimated_compressed_size>
+    <edit_url>http://susestudio.com/appliance/edit/201137</edit_url>
+    <icon_url>http://susestudio.com/api/v1/user/appliance_icon/201137</icon_url>
+    <basesystem>11.2</basesystem>
+    <uuid>01c72dfe-8798-11df-cda3-475ae2f5345b</uuid>
+    <parent>
+      <id>123663</id>
+      <name>openSUSE 11.2, Just enough OS (JeOS)</name>
+    </parent>
+    <builds type="array">
+      <build>
+        <id>417056</id>
+        <version>1.0.0</version>
+        <image_type>oem</image_type>
+        <image_size>1257</image_size>
+        <compressed_image_size>300</compressed_image_size>
+        <download_url>http://susestudio.com/download/c78546ceaafc33b1717f54a54f4aef5d/Eucalyptus_frontend.x86_64-1.0.0.oem.tar.gz</download_url>
+      </build>
+      <build>
+        <id>378366</id>
+        <version>0.0.2</version>
+        <image_type>oem</image_type>
+        <image_size>1032</image_size>
+        <compressed_image_size>276</compressed_image_size>
+        <download_url>http://susestudio.com/download/0088bcbc0424ff35c6b668a3bceef0e3/Eucalyptus_Head_Node.x86_64-0.0.2.oem.tar.gz</download_url>
+      </build>
+      <build>
+        <id>378342</id>
+        <version>0.0.1</version>
+        <image_type>oem</image_type>
+        <image_size>918</image_size>
+        <compressed_image_size>247</compressed_image_size>
+        <download_url>http://susestudio.com/download/b2d33fb4680373b66d2c1a17877f58df/Eucalyptus_Head_Node.x86_64-0.0.1.oem.tar.gz</download_url>
+      </build>
+    </builds>
+  </appliance>
+</appliances>
